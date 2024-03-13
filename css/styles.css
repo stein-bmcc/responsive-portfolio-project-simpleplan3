@@ -167,6 +167,12 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
         .grid-images {
           grid-template-columns: repeat(2, 1fr);
         }
+        
+    .projects {
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap :20px;
+      }
       }
 
       @media (min-width: 800px) {
