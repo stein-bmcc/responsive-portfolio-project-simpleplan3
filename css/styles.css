@@ -161,3 +161,10 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
         grid-column: span 3;
       }
       
+
+      /* CSS here for base grid that applies to mobile devices*/
+      @media (min-width: 400px) {
+        .grid-images {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
