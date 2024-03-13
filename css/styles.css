@@ -168,3 +168,9 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
           grid-template-columns: repeat(2, 1fr);
         }
       }
+
+      @media (min-width: 800px) {
+        .grid-images {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
