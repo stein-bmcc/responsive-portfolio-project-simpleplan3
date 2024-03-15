@@ -143,7 +143,7 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
 
     .projects {
         display: grid;
-        grid-template-columns: repeat(5 , 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-gap :20px;
       }
       .intro{
@@ -179,4 +179,24 @@ See for more info: https://codepen.io/profstein/pen/mrMLRj
         .grid-images {
           grid-template-columns: repeat(3, 1fr);
         }
-      }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(3 , 1fr);
+            grid-gap :20px;
+          }
+          main{
+            max-width: 80%;
+            margin: 0 auto;
+          }
+         
+        }
+      
+        @media (min-width: 1250px) {
+            /* .grid-images {
+              grid-template-columns: repeat(3, 1fr);
+            } */
+            main{
+                max-width: 1200px;
+                margin: 0 auto;
+              }
+            }
